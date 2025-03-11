@@ -1,4 +1,4 @@
-# Αποθήκευση του κώδικα της εφαρμογής σε αρχείο Python
+# Επαναδημιουργία του αρχείου Python με τον ενημερωμένο κώδικα
 
 file_path = "/mnt/data/herbicide_ranking_app.py"
 
@@ -50,3 +50,9 @@ if not herbicide_data.empty:
 else:
     st.write("Δεν βρέθηκαν δεδομένα για το επιλεγμένο ζιζανιοκτόνο.")
 """
+
+# Αποθήκευση του αρχείου
+with open(file_path, "w", encoding="utf-8") as f:
+    f.write(code)
+
+file_path
