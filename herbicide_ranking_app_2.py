@@ -9,7 +9,7 @@ import streamlit as st
 # Φόρτωση δεδομένων από Excel
 @st.cache_data
 def load_data():
-    path_vineyard = "ΦΥΣΙΚΟΧΗΜΙΚΑ_ΖΙΖΑΝΙΟΚΤΌΝΑ_ΑΜΠΕΛΙ.xlsx"
+    path_vineyard = "herbicides_VINE.xlsx"
     path_peach = "ΦΥΣΙΚΟΧΗΜΙΚΑ_ΖΙΖΑΝΙΟΚΤΌΝΑ_ΡΟΔΑΚΙΝΑ.xlsx"
     df_vineyard = pd.read_excel(path_vineyard)
     df_peach = pd.read_excel(path_peach)
