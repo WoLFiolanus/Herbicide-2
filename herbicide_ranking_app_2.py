@@ -51,8 +51,6 @@ else:
     st.write("Δεν βρέθηκαν δεδομένα για το επιλεγμένο ζιζανιοκτόνο.")
 """
 
-# Αποθήκευση του αρχείου
-with open(file_path, "w", encoding="utf-8") as f:
-    f.write(code)
+
 
 file_path
